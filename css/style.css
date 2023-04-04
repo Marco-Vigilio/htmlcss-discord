@@ -9,6 +9,35 @@
     flex-direction: row;
 }
 
+.flex-centro{
+    justify-content: center;
+    align-items:center;
+}
+
+.flex-destra{
+    justify-content: flex-end;
+    align-items:center;
+}
+
+.flex-sinistra{
+    justify-content: flex-start;
+    align-items: center;
+}
+
+.flex-sotto{    
+    justify-content: center;
+    align-items:flex-end;
+}
+
+.flex-opposti{
+    justify-content: space-between;
+    align-items: center;
+}
+
+.flex-reverse{
+    flex-direction: row-reverse;
+}
+
 .margin-auto{
     margin: auto;
 }
@@ -30,10 +59,6 @@
     border: 2px dashed white;
 }
 
-.background-gold{
-    background-color: #d9a420;
-}
-
 .background-gray{
     background-color: #d2d2d2;
 }
@@ -42,9 +67,13 @@
     background-color: #feb5c0;
 }
 
+/*carattere*/
 body{
-    font-family: sans-serif;
-    font-size: 1.15rem;
+    font-family: 'Cabin', sans-serif;
+    font-family: 'Overpass', sans-serif;
+    font-family: 'Roboto', sans-serif;
+    font-size: .8rem;
+    font-weight: bold;
 }
 
 header{
@@ -62,23 +91,24 @@ section.upper{
     align-items: center;
 }
 
-section.upper>div{
-    width: 20%;
+section.upper>div{ /*DIV DOV STA L'IMMAGINE logo*/
+    width: 40%;
     padding: .5rem 1rem;
 }
 
-section.upper nav {
+section.upper nav { /*DIV DOVE STSA LA NAV*/
     width: 60%;
 }
 
-section.upper nav ul{
+section.upper nav ul{ /*DOVE STANNO UL*/
     list-style-type: none;
-    padding: .5rem 1rem;
+    padding: .4rem 1rem;
     justify-content: center;
 }
 
-section.upper nav ul li{
-    margin-right: .5rem;
+section.upper nav ul li{ /*DOVE STA LI*/
+    margin: 0 1rem;
+    /*margin-right: 3rem;*/
 }
 
 section.upper div.login{
@@ -93,8 +123,7 @@ header section.jumbotron{
 
 section.jumbotron .hero{
     background-color: #ed81ed;
-    height: 400px;
-    width: 75%;
+    width: 60%;
 }
 
 main>section{
@@ -162,4 +191,54 @@ hr{
 footer section .logo-wrapper,
 footer section .button-wrapper{
     padding: .5rem;
+}
+
+/*COLORI*/
+
+.color-white{
+    color: white;
+}
+
+.color-black{
+    color: #393d3f;
+}
+
+.color-dull-blue{
+    color: #8ea1e1;
+}
+
+.bg-white{
+    background-color: white;
+}
+
+.bg-black{
+    background-color: #393d3f;
+}
+
+.bg-dull-blue{
+    color: #8ea1e1;
+}
+
+.bg-gray{
+    background-color: #f6f6f6;
+}
+
+.sfondo{
+    background-color: red;
+}
+
+/*bottone*/
+.botton{
+    border-radius: 20px;
+    padding: .5rem .7rem ;
+}
+
+.titoloni{
+    font-size: 2rem;
+    padding: 1rem;
+}
+
+.paragrafi{
+    font-size: 1rem;
+    padding: 1rem;
 }
