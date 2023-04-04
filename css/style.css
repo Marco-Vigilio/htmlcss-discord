@@ -77,8 +77,9 @@ body{
 }
 
 header{
-    background-color: #acd7e5;
-    /* padding-bottom: 5px; */
+    padding-bottom: 5px;
+    background-image: url('../img/jumbo.png');
+    background-size: cover;
 }
 
 header section.upper{
@@ -116,13 +117,10 @@ section.upper div.login{
 }
 
 header section.jumbotron{
-    background-color: #00008a;
-    /* height: 550px; */
     padding: 4rem 0;
 }
 
 section.jumbotron .hero{
-    background-color: #ed81ed;
     width: 60%;
 }
 
@@ -212,7 +210,7 @@ footer section .button-wrapper{
 }
 
 .bg-black{
-    background-color: #393d3f;
+    background-color: #23272a;
 }
 
 .bg-dull-blue{
@@ -231,14 +229,27 @@ footer section .button-wrapper{
 .botton{
     border-radius: 20px;
     padding: .5rem .7rem ;
+    margin: 1rem;
 }
 
-.titoloni{
+h1{
     font-size: 2rem;
     padding: 1rem;
 }
 
-.paragrafi{
+p{
     font-size: 1rem;
-    padding: 1rem;
+    margin: 1rem;
+}
+
+.testo-centro{
+    text-align: center;
+}
+
+.testo-destra{
+    text-align: right;
+}
+
+.testo-sinistra{
+    text-align: left;
 }
