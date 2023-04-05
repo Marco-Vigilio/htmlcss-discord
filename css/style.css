@@ -141,6 +141,10 @@ main>section{
     color: #8ea1e1;
 }
 
+.color-gray{
+    color: #f6f6f6;
+}
+
 .bg-white{
     background-color: white;
 }
@@ -199,11 +203,19 @@ footer section.flex-sinistra>div{
 }
 
 .wave{
-    background: #000;
+    background-image: url('../img/wave.svg');
+    width: 100%;
+    height: 80px;
+    color: #f6f6f6;
+    background-color: #f6f6f6;
+    bg
+}
+
+.ruotato{
+    transform: rotate(10deg);
 }
 
 .stelline{
-    background-image: url('../img/stars.svg');
     background-repeat: no-repeat;
     background-size: cover;
 }
